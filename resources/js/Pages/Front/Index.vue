@@ -110,7 +110,7 @@ const props = defineProps({
                     {{ slider.konten }}</p>
                 <div class="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
                     <a href="#"
-                        class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+                        class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-centernp text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
                         Get started <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                             fill="none" viewBox="0 0 14 10">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -118,7 +118,7 @@ const props = defineProps({
                         </svg>
                     </a>
                     <a href="#"
-                        class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
+                        class="inline-flex justify-center py items-center py-3 px-5 text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
                         Learn more </a>
                 </div>
             </div>
@@ -137,7 +137,7 @@ const props = defineProps({
                 <p class="pt-6 font-body leading-relaxed text-justify text-grey-20">{{ about.konten }}</p>
                 <div class="flex flex-col justify-center pt-6 sm:flex-row lg:justify-start">
                     <div class="flex items-center justify-center sm:justify-start">
-                        <a  href="https://www.instagram.com/_farlls/"
+                        <a  href="https://www.instagram.com/andika_nugh/"
                             class="font-body text-lg font-semibold uppercase text-grey-20 hover:text-blue-600 "> Connect with me </a>
                         <div class="hidden sm:block">
                             <i class="bx bx-chevron-right text-2xl text-primary"></i>
@@ -162,6 +162,7 @@ const props = defineProps({
                     </div>
                 </div>  
             </div>
+            
             <div class="w-full pl-0 pt-10 sm:w-3/4 lg:w-2/5 lg:pl-12 lg:pt-0">
                 <div v-for="item in skill" :key="item.id">
                     <div class="flex items-end justify-between">
@@ -175,6 +176,45 @@ const props = defineProps({
             </div>
         </div>
     </section>
+<section class="py-10">
+<h4 class="font-header text-2xl font-semibold uppercase text-primary sm:text-4xl lg:text-5xl py-4 text-center"> My Hobbi</h4>
+<div class="grid grid-cols-3 md:grid-cols-3 gap-4 px-10">
+    <div class="grid gap-4">
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-1589390594354-c3089b8af435?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fG1vdW50YWluJTIwYnJvbW98ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="https://cdn.pixabay.com/photo/2012/02/25/19/05/volcano-16912_640.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-1678977467609-586a233b96e5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bW91bnRhaW4lMjBtZXJiYWJ1fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="">
+        </div>
+    </div> 
+    <div class="grid gap-4">
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-1625418774157-c974c20c3faa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZGllbmd8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-1680100612420-e57b14dd2c7e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzB8fG1vdW50YWluJTIwYnJvbW98ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-1596467973106-ba7ebeef5cb9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fG1vdW50YWluJTIwYnJvbW98ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="">
+        </div>
+    </div>
+    <div class="grid gap-4">
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-1610800035926-e69304dd6f54?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nzd8fG1vdW50YWluJTIwYnJvbW98ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-1647067379984-9e0e069b097a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bW91bnRhaW4lMjBtZXJiYWJ1fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-1679520268453-3861a20df01e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8bW91bnRhaW4lMjBtZXJiYWJ1fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="">
+        </div>
+    </div>
+   
+</div>
+</section>
     <footer>
         <div className="mx-auto max-w-screen-xl  px-4 sm:px-6">
             <div className="grid sm:grid-cols-12 gap-8 py-8 md:py-12 border-t border-gray-200">
