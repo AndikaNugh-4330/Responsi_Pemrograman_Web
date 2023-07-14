@@ -95,6 +95,10 @@ const props = defineProps({
                         <a href="#contactus"
                             class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-dark md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-dark md:dark:hover:bg-transparent">Contact Us</a>
                     </li>
+                    <li>
+                        <a href="#hobby"
+                            class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-dark md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-dark md:dark:hover:bg-transparent">Hobby</a>
+                    </li>
                     
                 </ul>
             </div>
@@ -176,7 +180,7 @@ const props = defineProps({
             </div>
         </div>
     </section>
-<section class="py-10">
+<section class="py-10" id="hobby">
 <h4 class="font-header text-2xl font-semibold uppercase text-primary sm:text-4xl lg:text-5xl py-4 text-center"> My Hobbi</h4>
 <div class="grid grid-cols-3 md:grid-cols-3 gap-4 px-10">
     <div class="grid gap-4">
